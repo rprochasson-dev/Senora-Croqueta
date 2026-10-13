@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Señora Croqueta – Alimentación fresca para animales</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">🐾 Señora Croqueta</div>
+        <nav class="nav">
+            <a href="#inicio">Inicio</a>
+            <a href="#concepto">Concepto</a>
+            <a href="#productos">Productos</a>
+            <a href="#suscripcion">Suscripción</a>
+            <button id="darkToggle">🌙</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <h1>Alimentación fresca para tus animales</h1>
+            <p>Recetas naturales, saludables y personalizadas para cada mascota.</p>
+            <a href="#productos" class="cta">Ver menús</a>
+        </section>
+
+        <section id="concepto" class="section">
+            <h2>¿Qué es Señora Croqueta?</h2>
+            <p>
+                Un servicio tipo HelloFresh para animales: comida fresca, natural y adaptada
+                a las necesidades de cada mascota, con un enfoque responsable y sostenible.
+            </p>
+            <div class="features">
+                <div class="feature">
+                    <h3>🍽️ Recetas únicas</h3>
+                    <p>Paella, gazpacho y menús mediterráneos adaptados para animales.</p>
+                </div>
+                <div class="feature">
+                    <h3>🚚 Entrega a domicilio</h3>
+                    <p>Recibes los menús frescos directamente en tu casa.</p>
+                </div>
+                <div class="feature">
+                    <h3>🌱 Sostenible</h3>
+                    <p>Envases reutilizables y colaboración con restaurantes locales.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="productos" class="section productos">
+            <h2>Nuestros productos</h2>
+            <div class="card">
+                <h3>Paella para perros</h3>
+                <p>Pollo, arroz, verduras y cúrcuma. Receta equilibrada y segura.</p>
+            </div>
+            <div class="card">
+                <h3>Gazpacho para gatos</h3>
+                <p>Versión adaptada sin ajo ni cebolla, con ingredientes frescos.</p>
+            </div>
+            <div class="card">
+                <h3>Menú Mediterráneo</h3>
+                <p>Ternera, quinoa, aceite de oliva y verduras de temporada.</p>
+            </div>
+        </section>
+
+        <section id="suscripcion" class="section">
+            <h2>Suscripción semanal</h2>
+            <p>Recibe cada semana un lote de comidas frescas adaptadas a tu mascota.</p>
+            <form class="form">
+                <label>Nombre del propietario</label>
+                <input type="text" required>
+
+                <label>Nombre de la mascota</label>
+                <input type="text" required>
+
+                <label>Tamaño de la mascota</label>
+                <select>
+                    <option>Pequeña</option>
+                    <option>Mediana</option>
+                    <option>Grande</option>
+                </select>
+
+                <button type="button" id="btn-info" class="cta">Suscribirme</button>
+                <p id="mensaje"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Señora Croqueta — Alimentación responsable</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
